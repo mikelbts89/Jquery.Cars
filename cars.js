@@ -175,8 +175,6 @@ function generateSingleCar(index, lp) {
     searchOperation.click(function () {
         const value = $("#searchValue").val();
         const searchBy = $("#search-select").val();
-        console.log(value);
-        console.log(searchBy);
         if (!value) return;
 
         const currentValue = typeof value === 'string' ? value.toLowerCase() : value;
